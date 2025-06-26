@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL, // ✅ 환경변수로 백엔드 주소 설정
+  baseURL: 'https://two025-challkathon-itworks-be-xrja.onrender.com', // 백엔드 주소
   headers: {
     'Content-Type': 'application/json',
   },
